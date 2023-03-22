@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-----HEADER-----*/
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  width: 400px;
+  height: 135px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  display: flex;
+}
+
+header nav ul li a {
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+header nav ul li i {
+  color: white;
+  margin-top: 5px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+/*-----MAIN-----*/
+
+.hero {
+  background-image: url("../img/imagen_portada.jpg");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 30px;
+}
+
+.hero p {
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.MT {
+  background-color: black;
+}
+
+.MT h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  padding: 15px;
+}
+
+.logosMarcas {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.logoSam {
+  width: 200px;
+  height: 200px;
+}
+
+.logoApp{
+  width: 200px;
+  height: 200px;
+}
+
+.logoNvi{
+  width: 200px;
+  height: 200px;
+}
+
+.logoMsi{
+  width: 200px;
+  height: 200px;
+}
+
+
+/* ---- PRODUCTOS ---- */
+
+.articulos {
+  margin: 15px;
+  text-decoration: solid;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+/*-----CONTACTOS-----*/
+
+.sectioncontactos {
+  margin: 15px;
+  text-decoration: solid;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.formularioback{
+  margin: 10px;
+  padding: 10px;
+}
+
+.subreset{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/*-----FOOTER-----*/
+
+.footer {
+  width: 100%;
+  height: 18vh;
+  background-color: #000000;
+}
+
+.footer ul {
+  list-style: none;
+  background-color: #000000;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.footer h2 {
+  text-align: left;
+  margin-top: 10px;
+  padding: 6px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  justify-content: start;
+  color: white;
+}
+
+.footer div ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 6px;
+}
